@@ -1,0 +1,6 @@
+{
+	"*.{js,jsx,ts,tsx}": [
+		"biome check --apply --no-errors-on-unmatched --error-on-warnings",
+		"git add"
+	]
+}
