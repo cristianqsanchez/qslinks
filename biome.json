@@ -11,13 +11,18 @@
 		"enabled": true,
 		"rules": {
 			"all": true,
-			"style": { "all": true, "noDefaultExport": "off" },
+			"style": {
+				"all": true,
+				"noDefaultExport": "off",
+				"useNamingConvention": "off"
+			},
 			"correctness": {
 				"all": true,
 				"noGlobalObjectCalls": "off",
 				"noUndeclaredVariables": "off"
 			},
-			"nursery": { "all": true, "useAwait": "off" }
+			"nursery": { "all": true, "useAwait": "off" },
+			"a11y": { "all": true, "noSvgWithoutTitle": "off" }
 		}
 	},
 	"javascript": {
